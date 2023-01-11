@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{ 
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    /* background-color: rgb(255,127, 39); */
+    color: white;
+    padding: 1rem 1rem;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav nav{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 1.5rem;
+    font-size: 1.3rem;
+}
+nav ul {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.landing-section{
+    background-image: url(../img/landing-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 100vh;
+}
+.right-side img{
+    width: 100px;
+    height: 100px;
+}
+/* <!-- Discover Top Destinations --> */
+
+.discover-place-section1{
+    background-image: url(../img/topsplace/top-place-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section2{
+    background-image: url(../img/topsplace/top-place-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section3{
+    background-image: url(../img/topsplace/top-place-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section4{
+    background-image: url(../img/topsplace/top-place-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section5{
+    background-image: url(../img/topsplace/top-place-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section6{
+    background-image: url(../img/topsplace/top-place-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section7{
+    background-image: url(../img/topsplace/top-place-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section8{
+    background-image: url(../img/topsplace/top-place-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section9{
+    background-image: url(../img/topsplace/top-place-9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.discover-place-section10{
+    background-image: url(../img/topsplace/top-place-10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+    height: 130vh;
+    filter: blur(5px);
+}
+.owl-carousel .item {
+    height: 100vh;
+    /* background: #4DC7A0; */
+    padding: 0;
+}
+.owl-theme .owl-dots{
+    display: none;
+}
+.owl-theme .owl-nav{
+    display: none;
+}
+.tops-place .place-img img{
+    width: 90%;
+    height: 500px;
+    /* padding-left: 4rem;
+    padding-right: 3rem; */
+}
+.tops-place{
+    position: relative;
+}
+.place-info{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.tops-place-section{
+    position: absolute;
+    /* top: 70px; */
+    top: 70px;
+    left: 10%;
+    bottom: 0;
+    right: 10%;
+    /* display: grid;
+    place-items: center; */
+}
+.Destinations-place-section{
+    position: relative;
+}
